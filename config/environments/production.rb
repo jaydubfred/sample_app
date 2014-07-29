@@ -1,4 +1,7 @@
 SampleApp::Application.configure do
+  # Force all acces to the app over SSL, use Strict-Transport-Security,
+  # and use secure cookies.
+  config.force_ssl = true
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
